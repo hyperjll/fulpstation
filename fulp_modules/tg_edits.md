@@ -21,18 +21,8 @@
 #### Maps & Shuttles
 - _maps/map_files/Heliostation/Heliostation.dmm
 - _maps/heliostation.json
-- _maps/shuttles/arrival_helio.dmm
-- _maps/shuttles/cargo_helio.dmm
-- _maps/shuttles/emergency_helio.dmm
-- _maps/shuttles/labour_helio.dmm
-- _maps/map_files/SeleneStation/SeleneStation.dmm
-- _maps/selenestation.json
-- _maps/shuttles/arrival_selene.dmm
-- _maps/shuttles/cargo_selene.dmm
-- _maps/shuttles/emergency_selene.dmm
-- _maps/shuttles/mining_selene.dmm
-- _maps/shuttles/labour_selene.dmm
-- _maps/map_files/PubbyStation/PubbyStation.dmm
+- _maps/map_files/Solitairestation.dmm
+- _maps/Solitairestation.json
 - _maps/pubbystation.json
 - _maps/map_files/TheiaStation/TheiaStation.dmm
 - _maps/theiastation.json
