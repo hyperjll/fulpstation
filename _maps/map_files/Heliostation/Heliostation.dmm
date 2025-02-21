@@ -7980,9 +7980,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
@@ -28854,7 +28851,7 @@
 /area/station/ai_monitored/turret_protected/ai_upload)
 "dWh" = (
 /obj/machinery/mecha_part_fabricator{
-	dir = 4
+	drop_direction = 4
 	},
 /obj/effect/turf_decal/delivery,
 /obj/machinery/airalarm/directional/west,
@@ -29277,7 +29274,6 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/atmos/glass{
 	name = "Atmospherics Storage"
 	},
@@ -46724,7 +46720,7 @@
 /area/station/ai_monitored/turret_protected/ai_upload)
 "kXV" = (
 /obj/machinery/mecha_part_fabricator{
-	dir = 4
+	drop_direction = 4
 	},
 /obj/effect/turf_decal/delivery,
 /obj/machinery/firealarm/directional/west,
@@ -49502,7 +49498,7 @@
 /area/station/science/robotics/lab)
 "mfv" = (
 /obj/structure/table/reinforced,
-/obj/item/surgery_tray/full/morgue,
+/obj/effect/spawner/surgery_tray/full/morgue,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "mfJ" = (
@@ -61998,7 +61994,7 @@
 	},
 /area/station/hallway/secondary/command)
 "qTP" = (
-/obj/docking_port/stationary/mining_home/common/northstar{
+/obj/docking_port/stationary/mining_home/common{
 	dir = 8
 	},
 /turf/open/space/basic,
@@ -72328,7 +72324,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
-/mob/living/simple_animal/bot/floorbot,
+/mob/living/basic/bot/repairbot,
 /turf/open/floor/iron/dark/smooth_edge{
 	dir = 4
 	},
